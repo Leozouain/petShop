@@ -56,7 +56,7 @@ const Service = () => {
         {Object.values(services).map((service, index) => (
           <div
             key={index}
-            className="flex h-36 justify-center items-center gap-5 w-[100%]
+            className="flex h-36 justify-between px-5 md:px-0 md:justify-center items-center gap-5 w-[100%]
         md:flex-col  md:max-w-[325px] md:h-[335px]"
           >
             <img

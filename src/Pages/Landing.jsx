@@ -2,6 +2,7 @@ import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
 import Mobile from "../Components/Mobile";
 import Service from "../Components/Service";
+import SquishyCard from "../Components/SquishyCard";
 import Testimonials from "../Components/Testimonials";
 import Work from "../Components/Work";
 
@@ -18,6 +19,7 @@ const Landing = () => {
         <Mobile />
         <Work />
         <Testimonials />
+        <SquishyCard />
         <Footer />
       </div>
     </div>
